@@ -1,0 +1,49 @@
+.listingsContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.listingImage {
+  height: 60%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.listingTextContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 40%;
+}
+
+.listingText {
+  font-size: 18px;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-height: 200px;
+  overflow: scroll;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.listingButton {
+  height: 50px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}

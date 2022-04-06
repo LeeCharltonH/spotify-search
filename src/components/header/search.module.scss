@@ -1,0 +1,15 @@
+.form{
+    display: flex;
+    margin: 20px 0;
+    button {
+        border: none;
+        border-top-right-radius: 500px;
+        border-bottom-right-radius: 500px;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: #1ed760;
+        color: black;
+        text-transform: uppercase;
+    letter-spacing: 2px;
+    }
+}
