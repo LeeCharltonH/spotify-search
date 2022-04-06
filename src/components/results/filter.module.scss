@@ -2,21 +2,32 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     div{
-        border: 2px solid #1ed760;
+        border: 2px solid white;
         border-radius: 500px;
         padding: 15px 30px;
         color: white;
         font-weight: bold;
         font-size: 14px;
-        margin: 0 10px;
+        margin: 0px 10px;
         cursor: pointer;
         text-transform: uppercase;
     letter-spacing: 2px;
-    
     }
     .active{
         background-color: #1ed760;
-        color: black;
+        border-color: #1ed760;
     }
+}
+
+@media (max-width: 660px) {
+    .filterContainer{
+        div{
+            margin: 5px 10px;
+            padding: 11px 32px;
+            font-size: 12px;
+        }
+    }
+    
 }

@@ -14,6 +14,7 @@
 
 .cardContainerContent{
     z-index: 10;
+    height: 100%;
 }
 
 .cardContainer::before{
@@ -23,9 +24,15 @@
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: 0.3;
+    opacity: 0.1;
     background-image: url(../../../images/white.jpeg);
     background-repeat: repeat;
     z-index: -1;
     border-radius: 5px;
+}
+
+@media (max-width: 660px) {
+    .cardContainer{ 
+        max-width: 180px;
+    }
 }

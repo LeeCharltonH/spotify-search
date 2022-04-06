@@ -10,7 +10,7 @@ const Login = (props) => {
   const dispatch = useDispatch();
   const loginState = useSelector(state => state.loginState.token);
   const CLIENT_ID = "38ccb9c5c1924df2a1affd87e2bb7a99";
-  const REDIRECT_URI = "http://localhost:3000/";
+  const REDIRECT_URI = "https://spotify-search-2d1d9.web.app/";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
 

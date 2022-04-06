@@ -1,4 +1,11 @@
-.header{
-    min-height: 30vh;
-    padding-bottom: 20px;
+.header {
+  min-height: 30vh;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 660px) {
+  .header {
+    min-height: 25vh;
+    padding-top: 20px;
+  }
 }

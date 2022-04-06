@@ -1,10 +1,10 @@
 .button{
-    background-color: #1ed760;
-    color: black;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
     font-weight: bold;
     padding: 15px 20px;
     margin: 5px;
-    border: none;
     border-radius: 500px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -15,10 +15,21 @@
 .button:hover {
     transform: scale(1.04);
     transition: all 0.3s ease;
+    background-color: #1ed760;
+        border-color: #1ed760;
 }
 
 .button:focus {
     outline: 3px solid white;
     outline-offset: 3px;
     transition: all 0.3s ease;
+    background-color: #1ed760;
+        border-color: #1ed760;
+}
+
+@media (max-width:660px) {
+    .button{
+        padding: 7px 15px;
+        font-size: 11px;
+    }
 }
